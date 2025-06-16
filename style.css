@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 70%;
+    gap: 20px;
+}
+
+.container {
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+p {
+    font-weight: 700;
+}
+
+.container:hover {
+    background-color: rgb(197, 197, 197);
+    transition: 0.3s;
+}
