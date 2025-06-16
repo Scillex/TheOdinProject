@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.big {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px 10px;
+    padding-top: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px rgb(206, 206, 206);
+}
+
+.display {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: rgba(222, 224, 243, 0.927);
+    width: 340px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.div-digit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: auto;
+    width: 380px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.digit {
+    width: 80px;
+    height: 60px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(133, 133, 133);
+    background-color: rgb(233, 233, 233);
+    font-size: 16px;
+}
+
+.digit:active {
+    background-color: rgb(201, 201, 201);
+}
+
+#egal {
+    width: 180px;
+}
